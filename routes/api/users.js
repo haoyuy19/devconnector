@@ -68,6 +68,8 @@ router.post(
         }
       };
 
+      // return res.json({ payload });
+
       jwt.sign(
         payload,
         config.get('jwtSecret'),

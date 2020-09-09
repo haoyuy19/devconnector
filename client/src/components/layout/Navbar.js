@@ -41,7 +41,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code'></i> DevConnector
+          <i class='fab fa-connectdevelop'></i> DeveloperSpace
         </Link>
       </h1>
       {!loading && (
